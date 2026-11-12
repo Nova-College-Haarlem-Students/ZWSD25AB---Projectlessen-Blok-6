@@ -6,7 +6,7 @@ In de theorielessen bouw je de **Spelshop**. Op donderdag (2 × 1,5 uur projectl
 
 Het werk is verdeeld over **kaarten**, net als bij een eindproject. Eén kaart per lesweek. Vanaf les 2 staan de kaarten als **Issue** in je repository op GitHub. Een kaart is pas af als de docent hem heeft **afgetekend**.
 
-> 🔄 **Les 2:** begin met [Overstap naar GitHub-kaarten](Overstap%20naar%20GitHub-kaarten.md). Je verhuist je project naar de organisatie en krijgt daarna je kaarten als Issue.
+> 🔄 **Les 2:** begin met [Overstap naar GitHub-kaarten](https://github.com/NOVA-college-Haarlem/backend-frontend/blob/main/zwsd25ab/blok%206/projectlessen/Overstap%20naar%20GitHub-kaarten.md). Je verhuist je project naar de organisatie en krijgt daarna je kaarten als Issue.
 
 Zo zie je in de projectweek of je de stof echt zelf kunt toepassen. Daar krijg je namelijk een **ander** project, zonder begeleiding.
 
@@ -14,14 +14,14 @@ Zo zie je in de projectweek of je de stof echt zelf kunt toepassen. Daar krijg j
 
 | Week | Theorie | Projectles | Kaart |
 |------|---------|------------|-------|
-| 1 | H1–H3: setup, producten, detailpagina | donderdag | [Kaart 1 – Fundament](Kaart%201%20-%20Fundament.md) |
+| 1 | H1–H3: setup, producten, detailpagina | donderdag | Kaart 1 – Fundament |
 | 2 | H4–H6: layout, relaties, nieuwe entiteiten | donderdag | Kaart 2 – Datamodel |
 | 3 | H7: CRUD en validatie | donderdag | Kaart 3 – Beheer |
-| **Projectweek A** | | | [Eindproject 6A](../eindprojecten%206A/Eindproject%20Blok%206A.md) + mondeling |
+| **Projectweek A** | | | [Eindproject 6A](https://github.com/NOVA-college-Haarlem/backend-frontend/blob/main/zwsd25ab/blok%206/eindprojecten%206A/Eindproject%20Blok%206A.md) + mondeling |
 | 4 | H8: authenticatie en middleware | donderdag | Kaart 4 – Toegang |
 | 5 | H9: reviews en policies | donderdag | Kaart 5 – Reviews |
 | 6 | H10–H11: bestellingen, FormRequests | donderdag | Kaart 6 – Bestellen |
-| **Projectweek B** | | | [Eindproject 6B](../eindprojecten%206B/Eindproject%20Blok%206B.md), mondeling de week erna |
+| **Projectweek B** | | | [Eindproject 6B](https://github.com/NOVA-college-Haarlem/backend-frontend/blob/main/zwsd25ab/blok%206/eindprojecten%206B/Eindproject%20Blok%206B.md), mondeling de week erna |
 
 > ⚠️ Een kaart die op donderdag niet af is, maak je thuis af. Je laat hem de **volgende** projectles als eerste aftekenen. Kaarten worden **op volgorde** afgetekend. Je mag vooruitwerken.
 
