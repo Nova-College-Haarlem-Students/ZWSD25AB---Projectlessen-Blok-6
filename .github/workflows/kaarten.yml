@@ -1,0 +1,33 @@
+name: Kaarten
+
+# Deelt de projectkaarten uit als Issues. Uitleg: .github/DOCENT.md
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [closed]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: kaarten
+
+jobs:
+  kaarten:
+    # Niet in de template zelf, alleen in de repositories van studenten
+    if: ${{ !github.event.repository.is_template }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # hele geschiedenis, voor het commitoverzicht bij /klaar
+      - run: bash .github/kaarten/kaarten.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DOCENTEN: ${{ vars.DOCENTEN }}
